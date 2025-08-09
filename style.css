@@ -1,0 +1,339 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif; */
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/258d0f77-2241-4282-b613-8354a7675d1a/web/IN-en-20250721-TRIFECTA-perspective_cadc8408-df6e-4313-a05d-daa9dcac139f_large.jpg);
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    position: relative;
+}
+
+.main .box {
+    height: 644px;
+    width: 100%;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 80vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    width: 140px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+    max-width: 55vw;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-size: 17px;
+    text-align: center;
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
+
+.btn{
+    padding:2px 10px;
+    border-radius: 6px;
+    color: white;
+}
+.btn:hover{
+    background-color: #c70404;
+    cursor:pointer;
+}
+.btn-red-sm{
+    padding: 7.2px 13px;
+    border-radius: 3px;
+    color: rgb(243, 243, 243);
+    background-color: #dc0404;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.btn-red-sm:hover{
+    background-color: #c70404;
+    cursor:pointer;
+}
+.btn-english{
+    padding: 5px 6px;
+    color: white;
+    border-radius: 3px;
+    background-color:rgba(0, 0, 0, 0.433);
+    border:0.2px solid rgb(120, 120, 120);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.btn-english img{
+    width: 20px;
+    height: 16px;
+    margin: 0px 3px;
+}
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.btn-input{
+    padding: 0.75rem 1.5rem;
+    border-radius: 3px;
+    background-color:rgba(0, 0, 0, 0.433);
+    border:0.2px solid rgb(120, 120, 120);
+    color: rgb(238, 228, 228);
+    font-size: 1.125rem;
+    font-weight: 700;
+    width: 30vw;
+    padding-right: 0%;
+}
+.btn-red{
+    padding: 0.75rem 1.5rem;
+    border-radius: 3px;
+    background-color: #dc0404;
+    border: none;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 51px;
+    right: 0px;
+    width: 481px;
+    overflow: hidden;
+}
+section div:first-child{
+    display: flex;
+    flex-direction: column;
+}
+.FirstSpan{
+    font-size: 30px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-weight: 700;
+}
+.ScdSpan{
+    font-size: 17px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+    font-weight: 400;
+}
+.first-second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.first-third{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-last{
+    display: inline-flex;
+    align-items: center;
+}
+.last{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 15px;
+    line-height: 2.5;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 20px;
+    height: 20px;
+    max-width: 60vw;
+    margin: 14px auto;
+    cursor: pointer;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+    font-weight: lighter;
+    align-items: center;
+}
+footer{
+    color: rgb(206, 204, 204);
+    max-width: 62vw;
+    margin: auto;
+    padding: 48px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+footer .questions {
+    padding: 34px 0;
+}
+.footer-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    color: #d6d2d2;
+    padding: 6px;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size:15px;
+}
+footer .LastLine{
+    padding:10vh 0vw;
+    justify-content: center;
+    width: 50vw;
+    color: #787777;
+    font-size: 12px;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 1300px) {
+
+    nav{
+        max-width: 90vw;
+    }
+
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .secImg img {
+        width: 305px;
+    }
+
+    .secImg video {
+        width: 269px;
+    }
+
+    .hero> :nth-child(1) {
+        font-size: 32px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 18px;
+    }
+
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .faq h2 {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    footer {
+        max-width: 90vw;
+        padding: 75px 0;
+    }
+
+    .footer-item{
+        align-items: center;
+    }
+ 
+
+}
